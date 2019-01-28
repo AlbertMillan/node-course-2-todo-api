@@ -47,9 +47,6 @@ app.get('/todos/:id', (req, res) => {
     }).catch((err) => {
         res.status(400).send(err);
     });
-    // else {
-    //     res.status(404).send();
-    // }
 });
 
 app.post('/users', (req, res) => {
