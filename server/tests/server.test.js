@@ -13,7 +13,6 @@ const myTodos = [
     }
 ];
 
-
 // Run before each test case
 beforeEach((done) => {
     Todo.remove({}).then(() => {
